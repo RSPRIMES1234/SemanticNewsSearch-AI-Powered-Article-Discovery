@@ -10,14 +10,19 @@ Features
 * Provides concise summaries of top relevant articles
 Installation
 1.Clone this repository:
-`git clone https://github.com/RSPRIMES1234/SemanticNewsSearch-AI-Powered-Article-Discovery
-
+```python
+git clone https://github.com/RSPRIMES1234/SemanticNewsSearch-AI-Powered-Article-Discovery
+```
 2.Install the required packages:
-`pip install datasets sentence-transformers torch numpy pandas
+```python
+pip install datasets sentence-transformers torch numpy pandas
+```
 
 Usage
 Run the script:
-`python semantic_news_search.py
+```python
+python semantic_news_search.py
+```
 Follow the prompts to enter your search queries. Type 'exit' to quit the program.
 
 How It Works
