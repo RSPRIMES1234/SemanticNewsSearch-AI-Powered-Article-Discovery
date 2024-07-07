@@ -12,7 +12,7 @@ Installation
 Clone this repository:
 
 Copy
-git clone https://github.com/yourusername/SemanticNewsSearch.git
+git clone https://github.com/RSPRIMES1234/SemanticNewsSearch-AI-Powered-Article-Discovery/tree/main
 Install the required packages:
 
 Copy
