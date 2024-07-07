@@ -12,11 +12,11 @@ Features
 
 Installation
 
-1.Clone this repository:
+1. Clone this repository:
 ```python
 git clone https://github.com/RSPRIMES1234/SemanticNewsSearch-AI-Powered-Article-Discovery
 ```
-2.Install the required packages:
+2. Install the required packages:
 ```python
 pip install datasets sentence-transformers torch numpy pandas
 ```
@@ -30,8 +30,9 @@ Follow the prompts to enter your search queries. Type 'exit' to quit the program
 
 How It Works  
 
-1.Loads and preprocesses the 'multi_news' dataset  
-2.Encodes article summaries using a pre-trained sentence transformer  
-3.Converts user queries into embeddings  
-4.Calculates cosine similarity between query and article embeddings  
-5.Returns the most relevant articles based on similarity scores  
+1. Loads and preprocesses the 'multi_news' dataset  
+2. Encodes article summaries using a pre-trained sentence transformer  
+3. Converts user queries into embeddings  
+4. Calculates cosine similarity between query and article embeddings  
+5. Returns the most relevant articles based on similarity scores
+
