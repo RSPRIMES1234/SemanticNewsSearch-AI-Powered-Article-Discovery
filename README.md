@@ -30,7 +30,11 @@ Follow the prompts to enter your search queries. Type 'exit' to quit the program
 
 How It Works
 1.Loads and preprocesses the 'multi_news' dataset
+
 2.Encodes article summaries using a pre-trained sentence transformer
+
 3.Converts user queries into embeddings
+
 4.Calculates cosine similarity between query and article embeddings
+
 5.Returns the most relevant articles based on similarity scores
