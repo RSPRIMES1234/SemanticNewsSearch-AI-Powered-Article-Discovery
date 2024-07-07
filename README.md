@@ -9,25 +9,20 @@ Features
 * Offers an interactive command-line interface
 * Provides concise summaries of top relevant articles
 Installation
-Clone this repository:
+1.Clone this repository:
+`git clone https://github.com/RSPRIMES1234/SemanticNewsSearch-AI-Powered-Article-Discovery
 
-Copy
-git clone https://github.com/RSPRIMES1234/SemanticNewsSearch-AI-Powered-Article-Discovery
-Install the required packages:
+2.Install the required packages:
+`pip install datasets sentence-transformers torch numpy pandas
 
-Copy
-pip install datasets sentence-transformers torch numpy pandas
 Usage
 Run the script:
-
-
-Copy
-python semantic_news_search.py
+`python semantic_news_search.py
 Follow the prompts to enter your search queries. Type 'exit' to quit the program.
 
 How It Works
-Loads and preprocesses the 'multi_news' dataset
-Encodes article summaries using a pre-trained sentence transformer
-Converts user queries into embeddings
-Calculates cosine similarity between query and article embeddings
-Returns the most relevant articles based on similarity scores
+1.Loads and preprocesses the 'multi_news' dataset
+2.Encodes article summaries using a pre-trained sentence transformer
+3.Converts user queries into embeddings
+4.Calculates cosine similarity between query and article embeddings
+5.Returns the most relevant articles based on similarity scores
