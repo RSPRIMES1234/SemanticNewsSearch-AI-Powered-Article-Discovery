@@ -3,11 +3,11 @@ SemanticNewsSearch
 SemanticNewsSearch is an AI-powered tool that enables intelligent discovery of news articles based on user queries. It leverages advanced NLP techniques to provide context-aware article recommendations.
 
 Features
-Utilizes the Hugging Face 'multi_news' dataset
-Implements sentence transformers (all-MiniLM-L6-v2) for semantic understanding
-Uses cosine similarity for accurate article matching
-Offers an interactive command-line interface
-Provides concise summaries of top relevant articles
+* Utilizes the Hugging Face 'multi_news' dataset
+* Implements sentence transformers (all-MiniLM-L6-v2) for semantic understanding
+* Uses cosine similarity for accurate article matching
+* Offers an interactive command-line interface
+* Provides concise summaries of top relevant articles
 Installation
 Clone this repository:
 
