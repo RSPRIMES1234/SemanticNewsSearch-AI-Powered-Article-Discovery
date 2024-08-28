@@ -36,3 +36,4 @@ How It Works
 4. Calculates cosine similarity between query and article embeddings  
 5. Returns the most relevant articles based on similarity scores
 
+___
